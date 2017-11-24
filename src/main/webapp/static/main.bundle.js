@@ -43,7 +43,7 @@ var SharedService = (function () {
         this.currencyURL = "http://api.fixer.io/latest?symbols=";
         this.totReqsMade = 0;
         this.finalURL = "";
-        this.greetingURL = "http://localhost:8080/greeting";
+        this.greetingURL = "https://angular2project1.herokuapp.com/greeting";
     }
     SharedService.prototype.findWeather = function (city, state) {
         this.totReqsMade = this.totReqsMade + 1;
