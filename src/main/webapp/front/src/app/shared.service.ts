@@ -15,7 +15,7 @@ export class SharedService {
   currencyURL = "http://api.fixer.io/latest?symbols=";
   totReqsMade:number = 0;
   finalURL: string = "";
-   greetingURL:string ="https://angular2project1.herokuapp.com/greeting";
+   greetingURL:string ="./greeting";
   constructor(private http: Http) { }
 
   findWeather(city,state){
