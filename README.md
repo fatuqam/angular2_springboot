@@ -1,3 +1,3 @@
 # angular2_springboot
-Angular2 [![Build Status][travis-ci_status_img]][travis-ci_statsd]
+Angular2 https://travis-ci.org/fatuqam/angular2_springboot.svg?branch=master
 Comming soon
