@@ -9,5 +9,5 @@ deploy:
   api_key:
     secure: $HEROKU_API_KEY
   app: angular2project1
-Open app More 
+
 
