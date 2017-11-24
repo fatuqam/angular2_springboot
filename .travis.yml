@@ -8,4 +8,4 @@ script: "./mvnw --show-version --errors --batch-mode -Prun-its clean verify"
 deploy:
   provider: heroku
   api_key:
-    secure: HEROKU_API_KEY
+    secure: $HEROKU_API_KEY
