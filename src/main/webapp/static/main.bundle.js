@@ -38,9 +38,9 @@ var SharedService = (function () {
         this.weatherURL1 = "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22";
         this.weatherURL2 = "%2C%20";
         this.weatherURL3 = "%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys";
-        this.findMovieURL1 = "http://www.omdbapi.com/?t=";
+        this.findMovieURL1 = "https://www.omdbapi.com/?t=";
         this.findMovieURL2 = "&y=&plot=short&r=json";
-        this.currencyURL = "http://api.fixer.io/latest?symbols=";
+        this.currencyURL = "https://api.fixer.io/latest?symbols=";
         this.totReqsMade = 0;
         this.finalURL = "";
         this.greetingURL = "./greeting";
